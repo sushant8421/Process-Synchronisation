@@ -2,6 +2,7 @@
 Using Semaphores for synchronising the processes
 
  compile using : gcc coffee.c -o  coffee -lrt -pthread
+ 
  run by : ./coffee
 
 # program flow : 
