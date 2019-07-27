@@ -1,0 +1,16 @@
+Consider a system with 3-coffee lover processes and one agent process. Each coffee lover continuously makes
+coffee and drinks. But to make coffee, the coffee lover needs 3 ingredients: coffee powder, sugar and milk. The
+agent has indefinite supply of all the three ingredients required to make the coffee. One of the coffee lover has
+coffee powder, another has sugar and the third has milk. The agent places two of the ingredients on the table.
+The process who has the remaining ingredient, makes the coffee and drinks, signaling the agent on completion.
+The agent then puts out another two of the three ingredients on the table and the cycle repeats.
+
+Write a C program to code the agent and 3 coffee lovers as seperate processes. You shall achieve
+synchronization between them through semaphores.
+
+Task 1: Input the number of iterations "N" that is to be used for making coffee.
+Task 2: The agent should randomly choose two of the three ingredients required to make the coffee.
+Task 3: Determine the number of semaphores required to achieve perfect synchronization among the coffee
+lovers. (Also, mention the reason in Readme file).
+Task 4: For every iteration, print the ingredients that the agent placed on the table. Accordingly, print the coffee
+lover who have successfully prepared his coffee.
